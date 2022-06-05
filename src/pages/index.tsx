@@ -5,6 +5,7 @@ import { QuemSomos } from '../components/QuemSomos'
 import { ComoAjudar } from '../components/ComoAjudar'
 import { Container } from '../styles/pages/home'
 import { DadosOng } from '../components/DadosOng'
+import { Footer } from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
         <QuemSomos id="quem-somos"/>
         <ComoAjudar id="como-ajudar"/>
         <DadosOng id="dados-ong"/>
+        <Footer />
     </Container>
   )
 }

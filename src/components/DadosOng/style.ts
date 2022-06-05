@@ -52,19 +52,6 @@ export const Buttons = styled.div`
         }
     }
 
-    .instagram{
-        background: #f09433; 
-        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-
-        svg {
-            font-size: 1.4rem;
-            margin-right: 6px;
-        }
-    }
-
     .pix {
         display: flex;
         align-items: center;
